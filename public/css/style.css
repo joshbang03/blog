@@ -1,0 +1,25 @@
+.header-logo{
+    width: 75px;
+    height: 75px;
+    display: block;
+}
+
+.login-register {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.login-area, .register-area {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.login-register::before {
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+}
